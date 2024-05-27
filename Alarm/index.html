@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Alarm Clock App</title>
+    
+</head><link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<body>
+  <div class="container">
+    <h1 id="page-title">Alarm Clock</h1>
+    <hr id="title_hr">
+    <!-- Clock Wrapper -->
+    <div id="clock-wrapper">
+      <div id="digital-clock"></div>
+    </div>
+  
+
+    <!-- Clock Wrapper -->
+    <!-- Alarm Form Wrapper -->
+    <div id="form-wrapper">
+      <form action="" id="alarm-form">
+        <input type="time" class="form-input" id="alarm_time" required>
+        <button id="form-button" title="Save Item"><i class="fa fa-save"></i></button>
+      </form>
+    </div>
+
+    
+    <!-- Alarm Form Wrapper -->
+    <!-- Alarm List Wrapper -->
+    <div id="alarm_list"></div>
+    <!-- Alarm List Wrapper -->
+
+    <div id="startBtn-container">
+      <button id="startBtn">Start Alarm Clock</button>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
